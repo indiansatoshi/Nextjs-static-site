@@ -15,11 +15,9 @@ export default function Home() {
           <a>Anthropolo</a>
         </h1>
         <h2>Building a new internet on Web3</h2>
-
-        <p className={styles.description}>
-          Get started by reading our Whitepaper{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <br />
+        <br />
+        <br />
 
         <div className={styles.grid}>
           <a href="https://anthropolo.io" 
@@ -66,6 +64,14 @@ export default function Home() {
             <h2>Rostrum &rarr;</h2>
             <p>Web3 AI</p>
           </a>
+
+          <br />
+          <br />
+          
+          <p className={styles.description}>
+          Get in touch with us at { }
+          <a href='mailto:info@anthropolo.io'className={styles.link}><u>info@anthropolo.io</u></a>
+        </p>
         </div>
       </main>
 
